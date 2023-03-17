@@ -10,7 +10,7 @@ int main(void)
 {
 	char i;
 	char k;
-	char collector = 'a';
+	/*char collector = 'a';*/
 
 	for (i = 'a'; i <= 'z'; i++)
 	{
