@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 /**
  * main - function to print alphabet
  *
@@ -11,15 +12,15 @@ int main(void)
 	char k;
 	char collector = 'a';
 
-	for (i = 'b'; i <= 'z'; i++)
+	for (i = 'a'; i <= 'z'; i++)
 	{
-		collector += i;
+		putchar(i);
 	}
 	for (k = 'A'; k <= 'Z'; k++)
 	{
-		collector += k;
+		putchar(k);
 	}
-	putchar(collector);
+	/* putchar(collector);*/
 	putchar('\n');
 	return (0);
 }
