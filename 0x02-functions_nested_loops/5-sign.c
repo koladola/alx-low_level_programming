@@ -3,7 +3,7 @@
  *print_sign - function
  *
  * Return: 0
- *@c: - xter
+ *@n: - xter
  */
 
 int print_sign(int n)
