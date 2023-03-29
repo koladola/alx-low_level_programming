@@ -2,23 +2,24 @@
 /**
  * rev_string - imprime en reversa
  * @s: string
- * return: 0
+ * return: ee
  */
+
 void rev_string(char *s)
 {
-	int count = 0;
+	char rev = s[0];
+	int counter = 0;
 	int i;
-	char *k = s;
 
-	while (*s != '\0')
+	while (s[counter] != '\0')
+		counter++;
+	for (i = 0; i < counter; i++)
 	{
-		count++;
-		s++;
-	}
-	
-	for (i = count; i > 0; i--)
-	{
-		k[i]= s[i];
-		s--;
+		counter--;
+		rev = s[i];
+		s[i] = s[counter];
+		s[counter] = rev;
 	}
 }
+
+
