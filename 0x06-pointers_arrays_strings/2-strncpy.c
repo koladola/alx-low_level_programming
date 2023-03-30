@@ -5,6 +5,7 @@
  *
  * @dest: destination
  * @src:source
+ * @n:count
  *
  * Return: Always 0.
  */
