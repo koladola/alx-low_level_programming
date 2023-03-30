@@ -4,6 +4,7 @@
  * _strncat- check the code
  *
  * @dest: destination
+ * @n: count
  * @src:source
  *
  * Return: Always 0.
